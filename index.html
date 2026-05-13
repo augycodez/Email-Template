@@ -111,6 +111,7 @@
     margin:6px 0;
   }
 
+
   .info-box h3{
     margin-top:0;
     margin-bottom:6px;
@@ -144,6 +145,18 @@
     font-size:17px;
     font-weight:700;
     display:inline-block;
+  }
+
+  .button.brochure{
+    background:linear-gradient(135deg,#16a34a,#059669);
+    color:#ffffff !important;
+    text-decoration:none;
+    padding:16px 34px;
+    border-radius:50px;
+    font-size:17px;
+    font-weight:700;
+    display:inline-block;
+    margin-left:12px;
   }
 
   .footer{
@@ -186,6 +199,7 @@
     }
   }
 </style>
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -240,9 +254,8 @@
 
         </div>
         <div class="button-container">
-          <a href="https://www.cscrcgt.com" class="button">
-            Register Now
-          </a>
+          <a href="https://www.cscrcgt.com" class="button">Register Now</a>
+          <a href="brochure.pdf" class="button brochure" download>Brochure</a>
         </div>
 
         <p>
@@ -250,18 +263,30 @@
           in this premier scientific event. We look forward to welcoming you to an inspiring and impactful symposium.
         </p>
 
-        <p>
-          Warm Regards,<br><br>
-          <strong>Organizing Committee</strong><br>
-          11th Annual Cell &amp; Gene Therap Smposium<br>
-          Centre for Stem Cell Research<br>
-          Christian Medical College Vellore<br>
-          Bagaam, Vellore 632002,<br>
-          Tamil Nadu, India.<br>
-          cscrmeet@cmcvellore.ac.in<br>
-          Phone: +91-416-22-5109<br>
-          Mobile: +91-9894283445
-        </p>
+        <table class="contact-table" width="100%" role="presentation" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="contact-left">
+              <p class="no-top-margin">
+                Warm Regards,<br>
+                <strong>Organizing Committee</strong><br>
+                11th Annual Cell & Gene Therapy Symposium 2026<br>
+                Centre for Stem Cell Research<br>
+                Christian Medical College Vellore<br>
+                Bagayam, Vellore 632002,<br>
+                Tamil Nadu, India.
+              </p>
+            </td>
+            <td class="contact-right">
+              <p class="no-top-margin">
+                <strong>Contact Us</strong><br>
+                Email: <a href="mailto:cscrmeet@cmcvellore.ac.in">cscrmeet@cmcvellore.ac.in</a><br>
+                Phone: +91-416-228-5109<br>
+                Mobile: +91-9894283445<br>
+                Website: <a href="https://www.cscrcgt.com">www.cscrcgt.com</a>
+              </p>
+            </td>
+          </tr>
+        </table>
 
       </td>
     </tr>
