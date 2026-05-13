@@ -1,253 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>11th Annual Cell & Gene Therapy Symposium</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Registration Open - 11th Annual Cell and Gene Therapy Symposium 2026</title>
+
 <style>
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #f4f7fb;
-    font-family: Arial, Helvetica, sans-serif;
-}
+  body{
+    margin:0;
+    padding:0;
+    background:#f3f6fb;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#222222;
+  }
 
-table {
-    border-spacing: 0;
-}
+  table{
+    border-spacing:0;
+  }
 
-.wrapper {
-    width: 100%;
-    table-layout: fixed;
-    background-color: #f4f7fb;
-    padding-bottom: 40px;
-}
+  .wrapper{
+    width:100%;
+    table-layout:fixed;
+    background:#f3f6fb;
+    padding:40px 0;
+  }
 
-.main {
-    background-color: #ffffff;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 640px;
-    border-radius: 18px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-}
+  .main{
+    background:#ffffff;
+    margin:0 auto;
+    width:100%;
+    max-width:680px;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 35px rgba(0,0,0,0.08);
+  }
 
-.hero {
-    background: url("file:///D:/OneDrive%20-%20Christian%20Medical%20College/Desktop/Gold.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-    padding: 60px 40px;
-    text-align: center;
-}
+  .hero{
+    background:linear-gradient(135deg,#0b1f5e,#1167b1,#00b4d8);
+    padding:50px 40px;
+    text-align:center;
+    color:#ffffff;
+  }
 
-.hero h1 {
-    margin: 0;
-    font-size: 48px;
-    line-height: 1.1;
-    font-weight: 900;
-    color: #101820;
-}
+  .hero h1{
+    margin:0;
+    font-size:34px;
+    line-height:42px;
+    font-weight:800;
+  }
 
-.hero p {
-    font-size: 18px;
-    margin-top: 18px;
-    line-height: 1.6;
-    opacity: 0.95;
-}
+  .hero p{
+    margin-top:16px;
+    font-size:17px;
+    line-height:28px;
+    opacity:0.95;
+  }
 
-.content {
-    padding: 40px;
-    color: #222222;
-}
+  .blink{
+    display:inline-block;
+    margin-top:24px;
+    background:#ffcc00;
+    color:#000000;
+    font-size:20px;
+    font-weight:800;
+    padding:14px 28px;
+    border-radius:50px;
+    animation:blink-animation 1s infinite;
+  }
 
-.content h2 {
-    color: #ff2e2e;
-    font-size: 28px;
-    margin-top: 0;
-}
+  @keyframes blink-animation {
+    0% {opacity:1;}
+    50% {opacity:0.25;}
+    100% {opacity:1;}
+  }
 
-.registration {
-    text-align: center;
-    color: #FF0000;
-    animation: blink 1.2s steps(2,start) infinite;
-    -webkit-animation: blink 1.2s steps(2,start) infinite;
-}
+  .content{
+    padding:45px 40px;
+  }
 
-@keyframes blink {
-    50% { opacity: 0; }
-}
+  .content h2{
+    margin-top:0;
+    color:#0b1f5e;
+    font-size:28px;
+  }
 
-.content p {
-    font-size: 16px;
-    line-height: 1.8;
-    color: #555555;
-}
+  .content p{
+    font-size:16px;
+    line-height:28px;
+    color:#4b5563;
+    margin-bottom:22px;
+  }
 
-.highlight-box {
-    background: #F2F6FF;
-    border-left: 6px solid #00C2FF;
-    padding: 22px;
-    border-radius: 12px;
-    margin: 30px 0;
-}
+  .info-box{
+    background:#f4f9ff;
+    border-left:5px solid #00b4d8;
+    padding:24px;
+    border-radius:10px;
+    margin:30px 0;
+  }
 
-.highlight-box strong {
-    color: #111111;
-}
+  .info-box h3{
+    margin-top:0;
+    color:#0b1f5e;
+  }
 
-.button {
-    display: inline-block;
-    background: linear-gradient(135deg, #FF4D6D 0%, #FF7A18 100%);
-    color: #ffffff !important;
-    text-decoration: none;
-    padding: 16px 34px;
-    border-radius: 50px;
-    font-size: 17px;
-    font-weight: bold;
-    margin-top: 25px;
-}
+  .info-box ul{
+    padding-left:20px;
+    margin:10px 0 0;
+  }
 
-.agenda {
-    margin-top: 35px;
-}
+  .info-box li{
+    margin-bottom:12px;
+    color:#374151;
+    line-height:24px;
+  }
 
-.agenda-item {
-    padding: 16px 0;
-    border-bottom: 1px solid #eeeeee;
-}
+  .button-container{
+    text-align:center;
+    margin:40px 0 20px;
+  }
 
-.agenda-item strong {
-    color: #5B2EFF;
-}
+  .button{
+    background:linear-gradient(135deg,#00b4d8,#0077b6);
+    color:#ffffff !important;
+    text-decoration:none;
+    padding:16px 34px;
+    border-radius:50px;
+    font-size:17px;
+    font-weight:700;
+    display:inline-block;
+  }
 
-.footer {
-    background-color: #101828;
-    color: #d0d5dd;
-    text-align: center;
-    padding: 30px;
-    font-size: 13px;
-    line-height: 1.7;
-}
+  .footer{
+    background:#0b1f5e;
+    color:#dbeafe;
+    text-align:center;
+    padding:28px 25px;
+    font-size:14px;
+    line-height:24px;
+  }
 
-.social {
-    margin-top: 15px;
-}
+  .footer a{
+    color:#ffffff;
+    text-decoration:none;
+  }
 
-.social a {
-    color: #00C2FF;
-    text-decoration: none;
-    margin: 0 10px;
-}
+  @media screen and (max-width:600px){
 
-@media screen and (max-width: 640px) {
-
-    .hero {
-        padding: 40px 24px;
+    .hero{
+      padding:40px 25px;
     }
 
-    .hero h1 {
-        font-size: 36px;
+    .hero h1{
+      font-size:28px;
+      line-height:36px;
     }
 
-    .content {
-        padding: 28px;
+    .content{
+      padding:35px 25px;
     }
 
-    .content h2 {
-        font-size: 24px;
+    .content h2{
+      font-size:24px;
     }
-}
+
+    .blink{
+      font-size:17px;
+      padding:12px 20px;
+    }
+  }
 </style>
 </head>
 
 <body>
 
-<center class="wrapper">
+<div class="wrapper">
 
-<table class="main" width="100%">
+  <table class="main" width="100%">
 
-<tr>
-<td class="hero">
-    <P>
-    <strong>11th Annual Cell & Gene Therapy Symposium</strong>
-    </p>
-</td>
-</tr>
+    <!-- HERO SECTION -->
+    <tr>
+      <td class="hero">
 
-<tr>
-<td class="content">
+        <h1>11th Annual Cell and Gene Therapy Symposium 2026</h1>
 
-    <h2 class="registration">Registration is Now Open</h2>
+        <p>
+          Join leading scientists, clinicians, researchers, innovators,
+          and industry experts for an exciting scientific gathering
+          focused on the future of Cell & Gene Therapy.
+        </p>
 
-    <div class="highlight-box">
-        <strong>Symposium</strong><br><br>
-        📅 Date: October 09–10, 2026<br>
-        📍 Location: New Exam Building, Christian Medical College Vellore<br>
-        👥 In person attendance only
-    </div>
-    <div class="highlight-box">
-        <strong>Pre-symposium Workshop</strong><br><br>
-        📅 Date: October 08, 2026<br>
-        📍 Location: Centre for Stem Cell Research, Christian Medical College Vellore<br>
-        👥 30 seats only
-    </div>
-
-    <div class="agenda">
-        <div class="agenda-item">
-            <strong>Keynote Sessions</strong><br>
+        <div class="blink">
+          REGISTRATION NOW OPEN
         </div>
 
-        <div class="agenda-item">
-            <strong>Scientific Lectures</strong><br>
+      </td>
+    </tr>
+
+    <!-- CONTENT -->
+    <tr>
+      <td class="content">
+
+        <h2>Be Part of the Future of Advanced Therapies</h2>
+
+        <p>
+          We are delighted to invite you to the
+          <strong>11th Annual Cell and Gene Therapy Symposium 2026</strong>,
+          featuring keynote lectures, scientific sessions, industry interactions,
+          translational research discussions, and networking opportunities
+          with experts from around the world.
+        </p>
+
+        <div class="info-box">
+
+          <h3>Symposium Highlights</h3>
+
+          <ul>
+            <li>Cutting-edge Cell & Gene Therapy research</li>
+            <li>Industry and academic expert speakers</li>
+            <li>Scientific poster presentations</li>
+            <li>Emerging technologies & translational medicine</li>
+            <li>Networking opportunities with global leaders</li>
+          </ul>
+
         </div>
-        <div class="agenda-item">
-            <strong>Industry Networking</strong><br>
+
+        <p>
+          Early registration is encouraged to secure your participation
+          in this premier scientific event.
+        </p>
+
+        <div class="button-container">
+          <a href="https://your-registration-link.com" class="button">
+            Register Now
+          </a>
         </div>
 
-        <div class="agenda-item">
-            <strong>Technology Showcase</strong><br>
-        </div>
-    </div>
+        <p>
+          We look forward to welcoming you to an inspiring and impactful symposium.
+        </p>
 
-    <center>
-        <a href="https://www.cscr.res.in/CGTS2026" class="button">
-            Register Today
-        </a>
-    </center>
+        <p>
+          Warm Regards,<br><br>
+          <strong>Organizing Committee</strong><br>
+          11th Annual Cell and Gene Therapy Symposium 2026
+        </p>
 
-    <p style="margin-top:40px;">
-        Early registration discounts are available for a limited time.
-        Secure your place and join the conversation shaping the future
-        of advanced therapeutics.
-    </p>
+      </td>
+    </tr>
 
-</td>
-</tr>
+    <!-- FOOTER -->
+    <tr>
+      <td class="footer">
 
-<tr>
-<td class="footer">
-    <strong>11th Annual Cell & Gene Therapy Symposium</strong><br>
-    Empowering Innovation in Advanced Therapeutics<br>
+        © 2026 11th Annual Cell and Gene Therapy Symposium<br>
+        For enquiries, contact:
+        <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
 
-    <div class="social">
-        <a href="#">LinkedIn</a> |
-        <a href="#">Twitter/X</a> |
-        <a href="#">Website</a>
-    </div>
+      </td>
+    </tr>
 
-    <div style="margin-top:15px;">
-        © 2026 Cell & Gene Therapy Symposium. All rights reserved.
-    </div>
-</td>
-</tr>
+  </table>
 
-</table>
-
-</center>
+</div>
 
 </body>
 </html>
-```
