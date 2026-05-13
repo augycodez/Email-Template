@@ -22,7 +22,7 @@
     width:100%;
     table-layout:fixed;
     background:#f3f6fb;
-    padding:40px 0;
+    padding:20px 0;
   }
 
   .main{
@@ -37,9 +37,21 @@
 
   .hero{
     background:linear-gradient(135deg,#0b1f5e,#1167b1,#00b4d8);
-    padding:28px 30px;
+    padding:20px 24px;
     text-align:center;
     color:#ffffff;
+  }
+
+  .logo-cell{
+    text-align:center;
+    padding:4px 0 0;
+  }
+
+  .logo-img{
+    max-width:320px;
+    height:auto;
+    display:block;
+    margin:0 auto;
   }
 
   .hero h1{
@@ -58,12 +70,12 @@
 
   .blink{
     display:inline-block;
-    margin-top:16px;
+    margin-top:12px;
     background:#ffcc00;
     color:#000000;
-    font-size:20px;
+    font-size:18px;
     font-weight:800;
-    padding:14px 28px;
+    padding:10px 20px;
     border-radius:50px;
     animation:blink-animation 1s infinite;
   }
@@ -75,49 +87,52 @@
   }
 
   .content{
-    padding:12px 40px;
+    padding:10px 24px;
   }
 
   .content h2{
     margin-top:0;
     color:#0b1f5e;
-    font-size:28px;
+    font-size:26px;
   }
 
   .content p{
-    font-size:16px;
-    line-height:28px;
+    font-size:15px;
+    line-height:24px;
     color:#4b5563;
-    margin-bottom:22px;
+    margin-bottom:16px;
   }
 
   .info-box{
     background:#f4f9ff;
     border-left:5px solid #00b4d8;
-    padding:18px;
+    padding:12px;
     border-radius:10px;
     margin:6px 0;
   }
 
   .info-box h3{
     margin-top:0;
+    margin-bottom:6px;
     color:#0b1f5e;
+    font-size:16px;
   }
 
   .info-box ul{
-    padding-left:20px;
-    margin:10px 0 0;
+    padding-left:18px;
+    margin:6px 0 0;
   }
 
   .info-box li{
-    margin-bottom:12px;
+    margin-bottom:8px;
     color:#374151;
-    line-height:24px;
+    line-height:20px;
+    font-size:14px;
   }
 
   .button-container{
     text-align:center;
-    margin:40px 0 20px;
+    margin:20px 0 12px;
   }
 
   .button{
@@ -135,9 +150,9 @@
     background:#0b1f5e;
     color:#dbeafe;
     text-align:center;
-    padding:28px 25px;
-    font-size:14px;
-    line-height:24px;
+    padding:20px 18px;
+    font-size:13px;
+    line-height:20px;
   }
 
   .footer a{
@@ -148,7 +163,7 @@
   @media screen and (max-width:600px){
 
     .hero{
-      padding:22px 18px;
+      padding:16px 14px;
     }
 
     .hero h1{
@@ -157,7 +172,7 @@
     }
 
     .content{
-      padding:20px 18px;
+      padding:14px 12px;
     }
 
     .content h2{
@@ -165,9 +180,9 @@
     }
 
     .blink{
-      font-size:17px;
-      padding:12px 20px;
-      margin-top:12px;
+      font-size:15px;
+      padding:8px 16px;
+      margin-top:10px;
     }
   }
 </style>
@@ -181,20 +196,20 @@
 
     <!-- HERO SECTION -->
     <tr>
-      <td class="hero">
-
-        <h1>11th Annual Cell and Gene Therapy Symposium 2026</h1>
-        
-        <div class="blink">
-          REGISTRATION NOW OPEN
-        </div>
-
-      </td>
-    <tr>
-      <td style="text-align:center;padding:4px 0 0;">
-        <img src="images/Shared%20Logo.png" alt="Shared Logo" style="max-width:320px;height:auto;display:block;margin:0 auto;" />
-      </td>
-    </tr>
+      <td>
+        <table width="100%" role="presentation" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="hero">
+              <h1>11th Annual Cell and Gene Therapy Symposium 2026</h1>
+              <div class="blink">REGISTRATION NOW OPEN</div>
+            </td>
+          </tr>
+          <tr>
+            <td class="logo-cell">
+              <img src="images/Shared%20Logo.png" alt="Shared Logo" class="logo-img" />
+            </td>
+          </tr>
+        </table>
       </td>
     </tr>
 
@@ -224,16 +239,16 @@
           </ul>
 
         </div>
+        <div class="button-container">
+          <a href="https://www.cscrcgt.com" class="button">
+            Register Now
+          </a>
+        </div>
+
         <p>
           Early registration is encouraged to secure your participation
           in this premier scientific event.
         </p>
-
-        <div class="button-container">
-          <a href="https://your-registration-link.com" class="button">
-            Register Now
-          </a>
-        </div>
 
         <p>
           We look forward to welcoming you to an inspiring and impactful symposium.
@@ -242,7 +257,14 @@
         <p>
           Warm Regards,<br><br>
           <strong>Organizing Committee</strong><br>
-          11th Annual Cell and Gene Therapy Symposium 2026
+          11th Annual Cell &amp; Gene Therap Smposium<br>
+          Centre for Stem Cell Research<br>
+          Christian Medical College Vellore<br>
+          Bagaam, Vellore 632002,<br>
+          Tamil Nadu, India.<br>
+          cscrmeet@cmcvellore.ac.in<br>
+          Phone: +91-416-22-5109<br>
+          Mobile: +91-9894283445
         </p>
 
       </td>
@@ -253,8 +275,6 @@
       <td class="footer">
 
         © 2026 11th Annual Cell and Gene Therapy Symposium<br>
-        For enquiries, contact:
-        <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
 
       </td>
     </tr>
