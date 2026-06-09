@@ -105,7 +105,7 @@
 
   .info-box{
     background:#f4f9ff;
-    border-left:5px solid #00b4d8;
+    border-left:5px solid transparent;
     padding:12px;
     border-radius:10px;
     margin:6px 0;
@@ -174,12 +174,18 @@
   }
 
   .contact-left{
-    width:50%;
+    width:39%;
   }
 
-  .contact-right{
-    width:50%;
+  .contact-center{
+    width:39%;
     padding-top:18px;
+  }
+
+  .contact-qr{
+    width:22%;
+    padding-top:18px;
+    text-align:center;
   }
 
   .no-top-margin{
@@ -198,6 +204,20 @@
 
   .contact-table strong{
     color:#ff0000;
+  }
+
+  .contact-table p{
+    font-size:13px;
+    line-height:18px;
+    margin-bottom:6px;
+  }
+
+  .info-box.conference{
+    border-left-color:#00b4d8;
+  }
+
+  .info-box.preconf{
+    border-left-color:#16a34a;
   }
 
   @media screen and (max-width:600px){
@@ -226,12 +246,14 @@
     }
 
     .contact-left,
-    .contact-right{
+    .contact-center,
+    .contact-qr{
       width:100%;
       display:block;
     }
 
-    .contact-right{
+    .contact-center,
+    .contact-qr{
       padding-top:0;
     }
   }
@@ -267,10 +289,9 @@
     <tr>
       <td class="content">
 
-        <div class="info-box">
+        <div class="info-box conference">
 
           <h3>Conference</h3>
-
           <ul>
             <li><strong>Date:</strong> October 09-10, 2026</li>
             <li><strong>Venue:</strong> New Exam Building, Christian Medical College Vellore, Bagayam, Vellore 632002</li>
@@ -278,10 +299,9 @@
           </ul>
 
         </div>
-        <div class="info-box">
+        <div class="info-box preconf">
 
           <h3>Pre-Conference Workshop</h3>
-
           <ul>
             <li><strong>Date:</strong> October 08, 2026</li>
             <li><strong>Venue:</strong> Centre for Stem Cell Research, Christian Medical College Vellore, Bagayam, Vellore 632002</li>
@@ -310,13 +330,18 @@
                 Tamil Nadu, India.
               </p>
             </td>
-            <td class="contact-right">
+            <td class="contact-center">
               <p class="no-top-margin">
                 <strong>Contact Us</strong><br>
                 Email: <a href="mailto:cscrmeet@cmcvellore.ac.in">cscrmeet@cmcvellore.ac.in</a><br>
                 Phone: +91-416-228-5109<br>
                 Mobile: +91-9894283445<br>
                 Website: <a href="https://www.cscrcgt.com">www.cscrcgt.com</a>
+              </p>
+            </td>
+            <td class="contact-qr">
+              <p class="no-top-margin">
+                <img src="images/CGTC%20QR%20code.jpeg" alt="CGTC QR Code" style="max-width:100px; width:auto; height:auto; display:block; margin:0 auto;" />
               </p>
             </td>
           </tr>
